@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="Crystal Collector Game">
+  <meta name="author" content="Marvin Davis">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <!-- jQuery library -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <!-- Popper JS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <!-- Latest compiled JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <!-- GIPHY API -->
+  <!--<script src="http://api.giphy.com/v1/gifs/search?q=ryan+gosling&api_key=YOUR_API_KEY&limit=5"></script>-->
+  <!--CSS Reset -->
+  <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+  <!--CSS Stylesheet Only -->
+  <link rel="stylesheet" href="assets/css/style.css">
+  <title>Crystal Collector Game</title>
+</head>
+<body>
+    
+<h1>Crystal Collector Game</h1>
+<p>HTML Code Goes Here</p>
+<div id="userOutputcontainer">
+  <div id="userOutput">
+      <p>You will be given a random number at the start of the game.</p>
+      <p> There are four crystals below.</p> 
+      <p> By clicking on a crystal, you will add a specific amount of points to your total score</p>
+      <p> You win the game by matching your total score to a random number.</p> 
+      <p> You lose the game if your total score goes above the random number.</p> 
+      <p>The value of each crystal is hidden from you until you click on it.</p>
+      <p> Each time when the game starts, the game will change the values of each crystal.</p>
+  </div>
+  <div id="gameCountcontainer">
+      <div id="crystalRandomNum">
+      </div>
+      <div id="winslosses">
+          <p>Wins: <span id="winCount"></span></p>
+          <p>Losses: <span id="lossCount"></span></p>
+      </div>
+  </div>
+  <div id="crystalContainer">
+      <div class="crystals">
+          <img src="assets\images\crystal1.jpg" alt="Crystal" class="crystal-image" id="crystal-1" />
+      </div>
+      <div class="crystals">
+          <img src="assets\images\crystal2.jpg" alt="Crystal" class="crystal-image" id="crystal-2" />
+      </div>
+      <div class="crystals">
+          <img src="assets\images\crystal3.jpg" alt="Crystal" class="crystal-image" id="crystal-3" />
+      </div>
+      <div class="crystals">
+          <img src="assets\images\crystal4.jpg" alt="Crystal" class="crystal-image" id="crystal-4" />
+      </div>
+  </div>
+  <div id="scoreContainer">
+      <div id="totalDisplay">Your total score is: </div>
+      <div id="totalScore"><span id="totalCounter"></span></div>
+  </div>
+</div>
+
+// JavaScript Code Goes Here
+// JQuery Code Goes Here
+
+<script src="assets/javascript/game.js"></script>
+
+
+</body>
+</html>

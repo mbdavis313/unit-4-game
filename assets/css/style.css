@@ -1,0 +1,24 @@
+body {
+    background-color: lightblue;
+}
+
+#crystalContainer {
+    display: flex;
+}
+
+/*#crystalContainer img {
+    height: 50px;
+    
+}
+
+.crystals img {
+    margin-right: 10px;
+
+}*/
+
+.crystal-image {
+    border: 1px solid black; 
+    height: 100px;
+    margin-right: 10px;
+
+}
